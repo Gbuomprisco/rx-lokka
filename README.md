@@ -1,6 +1,6 @@
 # rx-lokka
 
-A simple Rx-powered wrapper around Lokka
+A simple Rx-powered wrapper around [Lokka](https://github.com/kadirahq/lokka)
 
 ## Get Started
 
