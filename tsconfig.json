@@ -4,7 +4,7 @@
     "noEmitOnError": true,
     "strictNullChecks": true,
     "module": "es2015",
-    "outDir": "dist",
+    "outDir": "./",
     "sourceMap": true,
     "declaration": true,
     "moduleResolution": "node",

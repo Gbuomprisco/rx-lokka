@@ -1,8 +1,8 @@
 {
   "name": "rx-lokka",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple Rx wrapper for Lokka",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "npm test",
     "build": "tsc -p tsconfig.json"
@@ -29,5 +29,13 @@
     "lokka": "^1.7.0",
     "rxjs": "^5.4.3",
     "typescript": "2.3.0"
-  }
+  },
+  "files":[
+    "index.js",
+    "index.d.ts",
+    "index.js.map",
+    "src",
+    "tsconfig.json",
+    "README.md"
+  ]
 }
