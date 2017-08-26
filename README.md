@@ -35,20 +35,30 @@ providers: [{
 ### Use it in your components
 
 ```javascript
+import { Lokka, LokkaProvider } from 'rx-lokka';
 
-const allTasksQuery = `
-    {
-      allTasks {
-        title
-        id
-        createdAt
-        content
-      }
-    }`;
+// component boilerplate
+export class MyComponent {
+    constructor( private lokka: LokkaProvider<Lokka>) { }
 
-this.lokka
-    .query(allTasksQuery)
-    .subscribe((data: AllTasks) => {
-        // all Tasks
-    });
+    ngOnInit() {
+        const allTasksQuery = `
+            {
+                allTasks {
+                    title
+                    id
+                    createdAt
+                    content
+                }
+            }`;
+
+        this.lokka
+            .query(allTasksQuery)
+            .subscribe((data: AllTasks) => {
+                // all Tasks
+            });
+        }
+    }
+}
+
 ```
