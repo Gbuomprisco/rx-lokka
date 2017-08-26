@@ -4,7 +4,7 @@ A simple Rx-powered wrapper around [Lokka](https://github.com/kadirahq/lokka)
 
 ## Get Started
 
-    yarn add rx-lokka
+    yarn add rx-lokka lokka lokka-transport-http
 
 ### Create a Lokka Client
 
