@@ -1,0 +1,33 @@
+{
+  "name": "rx-lokka",
+  "version": "0.0.1",
+  "description": "A simple Rx wrapper for Lokka",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "npm test",
+    "build": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbuomprisco/rx-lokka.git"
+  },
+  "keywords": [
+    "lokka",
+    "rxjs",
+    "graphql",
+    "rx"
+  ],
+  "author": "Giancarlo Buomprisco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gbuomprisco/rx-lokka/issues"
+  },
+  "homepage": "https://github.com/gbuomprisco/rx-lokka#readme",
+  "devDependencies": {
+    "@angular/core": "^4.3.6",
+    "@types/node": "^8.0.25",
+    "lokka": "^1.7.0",
+    "rxjs": "^5.4.3",
+    "typescript": "2.3.0"
+  }
+}
